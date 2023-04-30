@@ -1,0 +1,36 @@
+.footer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 2rem 0;
+}
+.about-footer{
+    width: 25%;
+}
+.about-footer p{
+    text-align: justify;
+}
+.c-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.c-item p{
+    margin-left: 5px;
+}
+p{
+    color: grey;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.base-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 1rem;
+}
+.base-footer p{
+    font-size: 0.8rem;
+}

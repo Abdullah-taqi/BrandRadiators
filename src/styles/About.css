@@ -1,0 +1,41 @@
+.about-container {
+    background-color: #f1f1f1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .about-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .about-text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    width: 50vw;
+  }
+  
+  .user-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .about-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
