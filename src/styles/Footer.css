@@ -1,5 +1,5 @@
 .footer{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -33,4 +33,26 @@ p{
 }
 .base-footer p{
     font-size: 0.8rem;
+}
+
+
+/* ---------------- Responsive using media queries ----------------- */
+
+
+@media screen and (max-width: 900px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer-item{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .about-footer{
+        width: 50% !important;
+        margin: auto;
+    }
 }

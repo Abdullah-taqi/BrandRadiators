@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     overflow: hidden;
     background: url("../assets/newsletter-bg.jpeg");
@@ -42,4 +42,14 @@ p{
 .email-div button:hover{
     opacity: 90%;
     cursor: pointer;
+}
+
+
+/* ---------------- Responsive using media queries ----------------- */
+
+
+@media screen and (max-width: 550px) {
+    h2{
+        font-size: 1rem;
+    }
 }

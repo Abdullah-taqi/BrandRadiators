@@ -42,3 +42,17 @@
 .sales button:hover{
     cursor: pointer;
 }
+
+
+/* ---------------- Responsive using media queries ----------------- */
+
+
+@media screen and (max-width: 1040px) {
+    .sales-img{
+        display: none;
+    }
+    .sales{
+        width: 100%;
+        margin: auto;
+    }
+}
